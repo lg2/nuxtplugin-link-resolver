@@ -13,6 +13,3 @@ const linkResolver = (data) => {
     return {};
   }
 };
-export default ({ app }, inject) => {
-  inject("lr", linkResolver);
-};
