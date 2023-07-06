@@ -1,5 +1,5 @@
-import linkResolverJSON from "./../../../assets/jsons/link-resolver.json";
-const linkResolver = (data) => {
+const linkResolverJSON = require("./../../../assets/jsons/link-resolver.json")
+const linkResolver = function(data)  {
   let route = { ...linkResolverJSON[data.__typename] };
   if (route) {
     return route;
@@ -13,3 +13,5 @@ const linkResolver = (data) => {
     return {};
   }
 };
+
+module.exports = linkResolver
