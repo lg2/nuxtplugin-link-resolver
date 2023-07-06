@@ -1,14 +1,14 @@
 {
   "name": "@lg2/nuxtplugin-link-resolver",
-  "version": "0.0.1",
-  "description": "consent gtm",
+  "version": "0.0.3",
+  "description": "link resolver plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:lg2/nuxtplugin-link-resolver.git"
+    "url": "git+ssh://git@github.com/lg2/nuxtplugin-link-resolver.git"
   },
   "author": "romain avalle",
   "license": "ISC",
