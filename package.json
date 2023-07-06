@@ -1,6 +1,6 @@
 {
   "name": "@lg2/nuxtplugin-link-resolver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "link resolver plugin",
   "main": "index.js",
   "scripts": {
