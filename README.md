@@ -1,6 +1,11 @@
 # nuxtplugin-link-resolver
 
-create a `linkResolver`base on your ``~/assets/jsons/link-resolver.json`
+create a `linkResolver`base on your `~/assets/jsons/link-resolver.json`
+
+```
+  yarn add @lg2/nuxtplugin-link-resolver -D
+  npm i @lg2/nuxtplugin-link-resolver -D
+```
 
 ```
 $lr({__typename:'ArticleRecord'})
