@@ -15,8 +15,7 @@ $lr({__typename:'ArticleRecord'})
 `~/plugins/link-resolver.js`
 ```
 import linkResolver from '@lg2/nuxtplugin-link-resolver'
-console.log(linkResolver)
 export default (_ctx, inject) => {
-  inject('linkResolver', linkResolver)
+  inject('lr', linkResolver)
 }
 ```
