@@ -5,7 +5,12 @@ const linkResolver = function(data)  {
     if (route.params) {
       const params = {}
       Object.entries(route.params).forEach((param) => {
-        params[param[0]] = data[param[1]]
+        if(param[1].indexOf(".") > -1) {
+          const split = param[1].split(".")
+          params[param[0]] = data[split[0]][split[1]]
+        }else{
+          params[param[0]] = data[param[1]]
+        }
       })
       route.params = params
     }
