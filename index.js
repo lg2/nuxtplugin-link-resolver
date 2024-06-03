@@ -26,4 +26,5 @@ const linkResolver = function(data)  {
   }
 };
 
+
 module.exports = linkResolver

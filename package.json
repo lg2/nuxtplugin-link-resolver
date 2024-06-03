@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/lg2/nuxtplugin-link-resolver.git/issues"
   },
+  
   "keywords": [
     "nuxt",
     "plugin"
